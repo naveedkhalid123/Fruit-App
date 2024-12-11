@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnboardingCollectionViewCell" id="gTV-IL-0wX" customClass="OnboardingCollectionViewCell" customModule="fruitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="563"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="563"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginImage" translatesAutoresizingMaskIntoConstraints="NO" id="Pri-hb-Br7">
+                        <rect key="frame" x="33" y="2" width="320" height="441"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="441" id="gzB-Ws-z3T"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BERRY JUICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrN-Mk-hmU">
+                        <rect key="frame" x="101.66666666666669" y="456" width="183" height="36"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We provide a variety of fresh juices with various flavours. Get fresh juices easily" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJh-gD-go7">
+                        <rect key="frame" x="76" y="507" width="222" height="54"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="54" id="kQ7-s5-8eS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RJh-gD-go7" secondAttribute="trailing" constant="76" id="0ge-hi-Bxi"/>
+                <constraint firstItem="RrN-Mk-hmU" firstAttribute="centerX" secondItem="Pri-hb-Br7" secondAttribute="centerX" id="HHd-ej-0CR"/>
+                <constraint firstItem="RJh-gD-go7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="76" id="LQK-7s-zsy"/>
+                <constraint firstItem="RJh-gD-go7" firstAttribute="top" secondItem="RrN-Mk-hmU" secondAttribute="bottom" constant="15" id="TLj-iQ-Qhx"/>
+                <constraint firstItem="Pri-hb-Br7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="33" id="d7P-qZ-XKO"/>
+                <constraint firstItem="Pri-hb-Br7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="eqU-Sv-c8b"/>
+                <constraint firstAttribute="bottom" secondItem="RJh-gD-go7" secondAttribute="bottom" constant="2" id="mx8-rr-bk2"/>
+                <constraint firstItem="RrN-Mk-hmU" firstAttribute="top" secondItem="Pri-hb-Br7" secondAttribute="bottom" constant="13" id="qG1-sK-RWN"/>
+                <constraint firstAttribute="trailing" secondItem="Pri-hb-Br7" secondAttribute="trailing" constant="21" id="spS-43-dH1"/>
+            </constraints>
+            <connections>
+                <outlet property="onboardingDes" destination="RJh-gD-go7" id="RlT-gV-sr0"/>
+                <outlet property="onboardingImg" destination="Pri-hb-Br7" id="Vmk-sK-qoO"/>
+                <outlet property="onboardingLbl" destination="RrN-Mk-hmU" id="gWa-x0-Rrb"/>
+            </connections>
+            <point key="canvasLocation" x="200" y="27.816901408450704"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="loginImage" width="320" height="441"/>
+    </resources>
+</document>
