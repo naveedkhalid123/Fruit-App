@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		67361D9B2CF0549200CE5FC3 /* fruitapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fruitapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67361D9B2CF0549200CE5FC3 /* Fruits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67361D9E2CF0549200CE5FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67361DA02CF0549200CE5FC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		67361DA22CF0549200CE5FC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		67361D9C2CF0549200CE5FC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67361D9B2CF0549200CE5FC3 /* fruitapp.app */,
+				67361D9B2CF0549200CE5FC3 /* Fruits.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,13 +72,11 @@
 		67361D9D2CF0549200CE5FC3 /* fruitapp */ = {
 			isa = PBXGroup;
 			children = (
+				67D3A0D52D0B3D55007FB92D /* Delegates */,
 				67E241E42D0608C3004BB209 /* OTP */,
 				67E241DF2D060149004BB209 /* Password */,
 				67E59F432D05C312006649FB /* Auth */,
 				678971E82D0477EE00FDF3D7 /* Onboarding */,
-				67361D9E2CF0549200CE5FC3 /* AppDelegate.swift */,
-				67361DA02CF0549200CE5FC3 /* SceneDelegate.swift */,
-				67361DA22CF0549200CE5FC3 /* ViewController.swift */,
 				67361DA42CF0549200CE5FC3 /* Main.storyboard */,
 				67361DA72CF0549300CE5FC3 /* Assets.xcassets */,
 				67361DA92CF0549300CE5FC3 /* LaunchScreen.storyboard */,
@@ -105,6 +103,15 @@
 			path = OnboardingCollectionView;
 			sourceTree = "<group>";
 		};
+		67D3A0D52D0B3D55007FB92D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				67361D9E2CF0549200CE5FC3 /* AppDelegate.swift */,
+				67361DA02CF0549200CE5FC3 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		67E241DF2D060149004BB209 /* Password */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +132,7 @@
 		67E59F432D05C312006649FB /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				67361DA22CF0549200CE5FC3 /* ViewController.swift */,
 				67E59F442D05C37C006649FB /* loginViewController.swift */,
 				67E241DD2D05D3C3004BB209 /* SignUpViewController.swift */,
 			);
@@ -134,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67361D9A2CF0549200CE5FC3 /* fruitapp */ = {
+		67361D9A2CF0549200CE5FC3 /* Fruits */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67361DAF2CF0549300CE5FC3 /* Build configuration list for PBXNativeTarget "fruitapp" */;
+			buildConfigurationList = 67361DAF2CF0549300CE5FC3 /* Build configuration list for PBXNativeTarget "Fruits" */;
 			buildPhases = (
 				67361D972CF0549200CE5FC3 /* Sources */,
 				67361D982CF0549200CE5FC3 /* Frameworks */,
@@ -146,9 +154,9 @@
 			);
 			dependencies = (
 			);
-			name = fruitapp;
+			name = Fruits;
 			productName = fruitapp;
-			productReference = 67361D9B2CF0549200CE5FC3 /* fruitapp.app */;
+			productReference = 67361D9B2CF0549200CE5FC3 /* Fruits.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 67361D962CF0549200CE5FC3 /* Build configuration list for PBXProject "fruitapp" */;
+			buildConfigurationList = 67361D962CF0549200CE5FC3 /* Build configuration list for PBXProject "Fruits" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67361D9A2CF0549200CE5FC3 /* fruitapp */,
+				67361D9A2CF0549200CE5FC3 /* Fruits */,
 			);
 		};
 /* End PBXProject section */
@@ -411,7 +419,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67361D962CF0549200CE5FC3 /* Build configuration list for PBXProject "fruitapp" */ = {
+		67361D962CF0549200CE5FC3 /* Build configuration list for PBXProject "Fruits" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67361DAD2CF0549300CE5FC3 /* Debug */,
@@ -420,7 +428,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67361DAF2CF0549300CE5FC3 /* Build configuration list for PBXNativeTarget "fruitapp" */ = {
+		67361DAF2CF0549300CE5FC3 /* Build configuration list for PBXNativeTarget "Fruits" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67361DB02CF0549300CE5FC3 /* Debug */,

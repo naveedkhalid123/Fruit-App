@@ -11,7 +11,7 @@
         <!--Onboarding View Controller-->
         <scene sceneID="rwa-RY-AAu">
             <objects>
-                <viewController storyboardIdentifier="OnboardingViewController" id="JFU-ZD-IUv" customClass="OnboardingViewController" customModule="fruitapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnboardingViewController" id="JFU-ZD-IUv" customClass="OnboardingViewController" customModule="Fruits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ajD-OW-GK8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="806"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,6 +39,7 @@
                                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="PV0-cV-E9l">
                                                 <rect key="frame" x="149" y="630" width="116" height="26"/>
                                                 <color key="pageIndicatorTintColor" red="0.99607843139999996" green="0.7725490196" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="currentPageIndicatorTintColor" systemColor="labelColor"/>
                                             </pageControl>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FnW-SR-rKL">
                                                 <rect key="frame" x="20" y="696" width="368" height="50"/>
@@ -133,7 +134,7 @@
         <!--View Controller-->
         <scene sceneID="hFa-nV-HkF">
             <objects>
-                <viewController storyboardIdentifier="OTPViewController" id="1de-jL-Umq" customClass="OTPViewController" customModule="fruitapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OTPViewController" id="1de-jL-Umq" customClass="OTPViewController" customModule="Fruits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YX8-ZP-GFq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="806"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -334,7 +335,7 @@
         <!--Login View Controller-->
         <scene sceneID="plS-qN-TsB">
             <objects>
-                <viewController storyboardIdentifier="loginViewController" id="15R-WH-t4n" customClass="loginViewController" customModule="fruitapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginViewController" id="15R-WH-t4n" customClass="loginViewController" customModule="Fruits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4cA-KJ-HWB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="806"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -567,7 +568,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="sRy-oq-mNS">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" id="6UJ-uS-V0f" customClass="SignUpViewController" customModule="fruitapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="6UJ-uS-V0f" customClass="SignUpViewController" customModule="Fruits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JPE-DA-eaa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="806"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -793,7 +794,7 @@
         <!--Forgot Password View Controller-->
         <scene sceneID="UYK-aj-fzo">
             <objects>
-                <viewController storyboardIdentifier="ForgotPasswordViewController" id="rUz-k7-tMh" customClass="ForgotPasswordViewController" customModule="fruitapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForgotPasswordViewController" id="rUz-k7-tMh" customClass="ForgotPasswordViewController" customModule="Fruits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rkL-v1-vpq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="806"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -905,7 +906,7 @@
         <!--Create New Pass View Controller-->
         <scene sceneID="Fml-WQ-4oA">
             <objects>
-                <viewController storyboardIdentifier="CreateNewPassViewController" id="dud-g6-qcW" customClass="CreateNewPassViewController" customModule="fruitapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateNewPassViewController" id="dud-g6-qcW" customClass="CreateNewPassViewController" customModule="Fruits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qsJ-rY-CL5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="806"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1037,6 +1038,9 @@
         <image name="preview" width="29" height="24"/>
         <image name="signup" width="360" height="200.33332824707031"/>
         <image name="whiteArrow" width="30" height="30"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
