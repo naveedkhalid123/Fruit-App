@@ -1,18 +1,43 @@
 # Fruit-App
-I'm excited to share my latest project! 🍎🍇
 
-I recently developed a Fruits App in Swift focusing on seamless functionality and a modern, fully responsive UI/UX design. The app delivers an intuitive user experience, making it visually appealing and smooth across all devices.
+🍎🍇 Fruits App
 
-💡 Key Highlights:
-1. Designed a clean, engaging, responsive UI/UX for all screen sizes.
+A modern and intuitive Fruits App designed to deliver a seamless user experience with a clean, responsive UI/UX. Built entirely in Swift, this app is optimized for performance and scalability, making it suitable for all screen sizes.
 
-Developed in Swift, ensuring high performance and scalability.
+✨ Key Features
 
-2 . Prioritized user-friendly navigation for a delightful experience.
+Engaging Onboarding Flow
+Beautifully crafted onboarding screens to guide users through the app's features.
 
-3. Building this project was a great opportunity to combine my development skills with my passion for design. I’m proud of how it turned out and excited to keep pushing my skills forward!
+Authentication Module
+Login: Secure and easy-to-use login screen.
+Sign Up: User-friendly registration screen for new users.
+Forgot Password: Simplified password recovery process.
+OTP Verification: Secure and reliable one-time password (OTP) validation.
+Create New Password: Hassle-free password reset functionality.
 
-I am sharing the visuals of my project through a Google Drive link:
+Modern UI/UX Design
+Fully responsive layout for all screen sizes.
+Clean and visually appealing design, ensuring a delightful experience.
+
+Swift Development
+Built with Swift, prioritizing performance, reliability, and scalabil
+
+📸 Screenshots
 Please click here
 https://bit.ly/4h0B7PH
+
+
+🛠️ Technologies Used
+Language: Swift
+Frameworks: UIKit
+Design Tools: Figma
+
+
+📝 Future Enhancements
+Add additional fruit-related features.
+Integration with a backend for storing user data.
+Dark mode support.
+
+
 
