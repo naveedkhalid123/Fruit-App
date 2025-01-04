@@ -1,5 +1,5 @@
 # Fruit-App
-I'm excited to share my latest project! 🍎🍌🍇
+I'm excited to share my latest project! 🍎🍇
 
 I recently developed a Fruits App in Swift focusing on seamless functionality and a modern, fully responsive UI/UX design. The app delivers an intuitive user experience, making it visually appealing and smooth across all devices.
 
