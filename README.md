@@ -14,5 +14,5 @@ Developed in Swift, ensuring high performance and scalability.
 
 I am sharing the visuals of my project through a Google Drive link:
 Please click here
-https://drive.google.com/file/d/1hYnWRXr1b5PtRuP4TFcgWYkq-FBFwjuK/view?usp=sharing
+https://bit.ly/4h0B7PH
 
