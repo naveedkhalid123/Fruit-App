@@ -24,7 +24,8 @@ Swift Development
 Built with Swift, prioritizing performance, reliability, and scalability
 
 📸 Screenshots
-https://bit.ly/4h0B7PH
+[![Fruit App Presentation](https://github.com/naveedkhalid123/Fruit-App/blob/4bd17a860c8d4713304dd00c09af1e80e43ae8a4/Apple%20iPhone%2011%20Pro%20Max%20Presentation.png)](https://github.com/naveedkhalid123/Fruit-App)
+
 
 
 🛠️ Technologies Used
