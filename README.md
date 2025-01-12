@@ -21,10 +21,9 @@ Fully responsive layout for all screen sizes.
 Clean and visually appealing design, ensuring a delightful experience.
 
 Swift Development
-Built with Swift, prioritizing performance, reliability, and scalabil
+Built with Swift, prioritizing performance, reliability, and scalability
 
 📸 Screenshots
-Please click here
 https://bit.ly/4h0B7PH
 
 
